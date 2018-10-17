@@ -1,0 +1,1 @@
+export const getToken = () => localStorage.getItem('JWT_TOKEN')

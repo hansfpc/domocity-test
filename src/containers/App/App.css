@@ -1,0 +1,29 @@
+@import '~antd/dist/antd.css';
+
+.Main-frame {
+  min-height: 100vh;
+}
+
+.Main-container {
+  background-color: #FBFBFC;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Relee-area {
+  width: 50%;
+  height: 40%;
+  background-color: white;
+  box-shadow: 0 10px 40px 0 rgba(62, 57, 107, 0.07), 0 2px 9px 0 rgba(62, 57, 107, 0.06);
+  -webkit-box-shadow: 0 10px 40px 0 rgba(62, 57, 107, 0.07),
+  0 2px 9px 0 rgba(62, 57, 107, 0.06);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
